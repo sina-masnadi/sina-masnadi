@@ -21,6 +21,20 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174171121-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-174171121-1');
+    </script>
+
 </head>
 
 <body id="page-top">
@@ -90,19 +104,26 @@
                     <div>Computer Science</div>
                 </div>
                 <div class="resume-date text-md-right">
-                    <span class="text-primary">August 2002 - May 2006</span>
+                    <span class="text-primary">August 2010 - May 2015</span>
                 </div>
             </div>
 
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/sina-masnadi-8761365b/" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
+                    <h5>LinkedIn</h5>
                 </a>
                 <a href="https://github.com/sina-masnadi" target="_blank">
                     <i class="fab fa-github"></i>
+                    <h5>GitHub</h5>
                 </a>
                 <a href="resume.pdf" target="_blank">
                     <i class="fas fa-file"></i>
+                    <h5>Resume</h5>
+                </a>
+                <a href="https://scholar.google.com/citations?user=LOtg1qMAAAAJ&hl=en" target="_blank">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h5>Scholar</h5>
                 </a>
             </div>
         </div>
@@ -115,7 +136,43 @@
             <h2 class="mb-5">Publications</h2>
             <div class="col">
                 <div class="mb-3 row">
-                    <div class="p-0 col-xl-9 col-sm-12">
+                    <div class="p-0 col-xl-12 col-sm-12">
+                        <h3 class="mb-0">ConcurrentHull: A Fast Parallel Computing Approach to the Convex Hull
+                            Problem</h3>
+                        <div class="subheading">Sina Masnadi and Joseph J. LaViola Jr.</div>
+                        <div class="mb-3">International Symposium on Visual Computing (ISVC 2019)
+                        </div>
+                        <div class="small mb-3">The convex hull problem has practical applications in mesh generation,
+                            file searching, cluster analysis, collision detection, image processing, statistics, etc. In
+                            this paper, we present a novel pruning-based approach for finding the convex hull set for 2D
+                            and 3D datasets using parallel algorithms. This approach, which is a combination of pruning,
+                            divide and conquer, and parallel computing, is flexible to be employed in a distributed
+                            computing environment.
+                            We propose the algorithm for both CPU and GPU (CUDA) computation models. The results show
+                            that ConcurrentHull has a performance gain as the input data size increases. Providing an
+                            independently dividable approach, our algorithm has the benefit of handling huge datasets as
+                            opposed to other approaches presented in this paper which failed to manage the same
+                            datasets.
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-sm-12">
+                             <span class="text-primary">
+                      <a href="http://www.eecs.ucf.edu/~jjl/pubs/MasnadiVR2020a.pdf">
+                        PDF <span class="fas fa-download"></span></a></span>
+                        <br/>
+                        <br/>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iFNUm5rFHaE"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </div>
+                <hr/>
+                <div class="mb-3 row">
+                    <div class="p-0 col-xl-12 col-sm-12">
                         <h3 class="mb-0">Sketching affordances for human-in-the-loop robotic manipulation
                             tasks</h3>
                         <div class="subheading">Sina Masnadi, Joseph J LaViola, Jana Pavlasek, Xiaofan Zhu, Karthik
@@ -140,7 +197,7 @@
                             performing actions sequentially to achieve the goal.
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-12">
+                    <div class="col-xl-12 col-sm-12">
                              <span class="text-primary">
                       <a href="https://karthikdesingh.com/pdfs/masnadi_et_al_ICRA_2019_WS.pdf">
                         PDF <span class="fas fa-download"></span></a></span>
@@ -153,8 +210,9 @@
                         </a>
                     </div>
                 </div>
+                <hr/>
                 <div class="mb-3 row">
-                    <div class="p-0 col-xl-9 col-sm-12">
+                    <div class="p-0 col-xl-12 col-sm-12">
                         <h3 class="mb-0">VRiAssist: An Eye-Tracked Virtual Reality Low Vision Assistance Tool</h3>
                         <div class="subheading">Sina Masnadi, Brian Williamson, Andrés N Vargas González, Joseph J
                             LaViola
@@ -180,7 +238,7 @@
                             impairment.
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-12">
+                    <div class="col-xl-12 col-sm-12">
                              <span class="text-primary">
                       <a href="http://www.eecs.ucf.edu/~jjl/pubs/MasnadiVR2020a.pdf">
                         PDF <span class="fas fa-download"></span></a></span>
@@ -195,8 +253,9 @@
 
                     </div>
                 </div>
+                <hr/>
                 <div class="mb-3 row">
-                    <div class="p-0 col-xl-9 col-sm-12">
+                    <div class="p-0 col-xl-12 col-sm-12">
                         <h3 class="mb-0">AffordIt!: A Tool for Authoring Object Component Behavior in VR</h3>
                         <div class="subheading">Sina Masnadi, Andrés N Vargas González, Brian Williamson, Joseph J
                             LaViola
@@ -218,7 +277,7 @@
                             exploratory study to gather feedback. Results show high usability and low workload ratings.
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-12">
+                    <div class="col-xl-12 col-sm-12">
                        <span class="text-primary">
                       <a href="http://www.eecs.ucf.edu/isuelab/publications/pubs/MasnadiVR2020b.pdf">
                         PDF <span class="fas fa-download"></span></a></span>
@@ -232,7 +291,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="mb-3 row">
+                <hr/>
+                <div class="mb-12 row">
                     <div class="p-0 col-xl-9 col-sm-12">
                         <h3 class="mb-0">A Sketch-Based System for Human-Guided Constrained Object Manipulation</h3>
                         <div class="subheading">Sina Masnadi, Joseph J. LaViola Jr., Xiaofan Zhu, Karthik Desingh,
@@ -263,19 +323,20 @@
                             turning a door handle and opening a drawer by the robot.
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-12">
+                    <div class="col-xl-12 col-sm-12">
                       <span class="text-primary">
                       <a href="https://arxiv.org/pdf/1911.07340">
                         PDF <span class="fas fa-download"></span></a></span>
                         <br/>
                         <br/>
                         <a href="http://cs.ucf.edu/~masnadi/img/pub/dh.png">
-                            <img width="100%" src="http://cs.ucf.edu/~masnadi/img/pub/dh_s.png" alt="door handle"/>
+                            <img width="100%" src="http://cs.ucf.edu/~masnadi/img/pub/dh.png" alt="door handle"/>
                         </a>
                     </div>
                 </div>
+                <hr/>
                 <div class="mb-3 row">
-                    <div class="p-0 col-xl-9 col-sm-12">
+                    <div class="p-0 col-xl-12 col-sm-12">
                         <h3 class="mb-0">Investigating the Value of Privacy within the Internet of Things</h3>
                         <div class="subheading">Alex Mayle, Neda Hajiakhoond Bidoki, Sina Masnadi, Ladislau Boeloeni,
                             Damla Turgut
@@ -297,10 +358,15 @@
                             study, and its initial results, are provided to illustrate its capabilities.
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-12">
+                    <div class="col-xl-12 col-sm-12">
                        <span class="text-primary"><a
                                href="http://www.eecs.ucf.edu/~turgut/Research/Publications/Download/Mayle-2017-GLOBECOM.pdf">
                         PDF <span class="fas fa-download"/></a></span>
+                        <br/>
+                        <br/>
+                        <a href="http://cs.ucf.edu/~masnadi/img/pub/prv.jpg">
+                            <img width="100%" src="http://cs.ucf.edu/~masnadi/img/pub/prv.jpg" alt="door handle"/>
+                        </a>
                     </div>
                 </div>
             </div>
